@@ -1,0 +1,192 @@
+/** GuessingGame styling sheet.
+*
+* @author Buqwana Xolisile
+* @version 01/09/2024
+*  
+*/
+
+/* Main Scene Styling
+ *
+ */
+
+.guessingGamePane{
+   -fx-background-color: #3fb2ff;
+   -fx-border-color: #3fb2ff;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+.faceLift{
+   -fx-background-color: #3fb2ff;
+   -fx-border-color: #3fb2ff;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+.guessButton{
+   -fx-background-color: #4b14a3;
+   -fx-border-color: #4b14a3;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 3px;
+   -fx-background-radius: 3px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.guessButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+.numberLabel{
+   -fx-background-color: #0fc649;
+   -fx-border-color: #0fc649;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 3px;
+   -fx-background-radius: 3px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.numberLabel:hover {
+    -fx-background-color: #FFFFFF;
+}
+.computerLabel{
+   -fx-background-color: #c48a10;
+   -fx-border-color: #c48a10;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 3px;
+   -fx-background-radius: 3px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.helpButton{
+   -fx-background-color: #d4ff00;
+   -fx-border-color: #d4ff00;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 3px;
+   -fx-background-radius: 3px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.helpButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+.helpButton{
+   -fx-background-color: #d4ff00;
+   -fx-border-color: #d4ff00;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 3px;
+   -fx-background-radius: 3px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.helpButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+.exitButton{
+   -fx-background-color: #d01d1d;
+   -fx-border-color: #d01d1d;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 3px;
+   -fx-background-radius: 3px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.exitButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+.resultsPane{
+   -fx-background-color: #3fb2ff;
+   -fx-border-color: #3fb2ff;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-style: solid;
+}
+
+.resultsLabel{
+   -fx-text-fill: #cd1414;
+}
+.round1Label{
+   -fx-text-fill: black;
+}
+.round2Label{
+   -fx-text-fill: black;
+}
+.round3Label{
+   -fx-text-fill: black;
+}
+.totalPointsLabel{
+   -fx-text-fill: black;
+}
+
+.youLabel{
+   -fx-text-fill: black;
+}
+.yourResult1Label{
+   -fx-text-fill: black;
+}
+.yourResult2Label{
+   -fx-text-fill: black;
+}
+.yourResult3Label{
+   -fx-text-fill: black;
+}
+.yourResultsLabel{
+   -fx-text-fill: black;
+}
+
+.computerResultLabel{
+   -fx-text-fill: black;
+}
+.computerResult1Label{
+   -fx-text-fill: black;
+}
+.computerResult2Label{
+   -fx-text-fill: black;
+}
+.computerResult3Label{
+   -fx-text-fill: black;
+}
+.computerResultsLabel{
+   -fx-text-fill: black;
+}
+
+.youResultsLabel{
+   -fx-text-fill: black;
+}
+.commentResultsLabel{
+   -fx-text-fill: black;
+}
+.generalRemarksLabel{
+   -fx-text-fill: black;
+}
+
+.okButton{
+   -fx-background-color: #0fc649;
+   -fx-border-color: #0fc649;
+   -fx-border-width: 0px 0px 0px 0px; 
+   -fx-border-radius: 3px;
+   -fx-background-radius: 3px;
+   -fx-border-style: solid;
+   -fx-text-fill: black;
+}
+.okButton:hover {
+    -fx-background-color: #FFFFFF;
+}
+
+.allHelpLabel{
+   -fx-text-fill: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

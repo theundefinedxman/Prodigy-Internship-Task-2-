@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="guessingGamePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="698.0" styleClass="guessingGamePane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuessingGameUIController">
+   <children>
+      <Label layoutX="18.0" layoutY="31.0" prefHeight="106.0" prefWidth="303.0" text="Guessing Game" textFill="#cd1414c2">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitButton" alignment="CENTER" contentDisplay="CENTER" layoutX="653.0" layoutY="462.0" mnemonicParsing="false" onAction="#closeAction" prefHeight="31.0" prefWidth="34.0" styleClass="exitButton" stylesheets="@style.css" textAlignment="CENTER" />
+      <Button fx:id="helpButton" layoutX="580.0" layoutY="461.0" mnemonicParsing="false" onAction="#helpAction" prefHeight="22.0" prefWidth="68.0" styleClass="helpButton" stylesheets="@style.css" text="Help">
+         <font>
+            <Font name="Bauhaus 93" size="17.0" />
+         </font>
+      </Button>
+      <Circle fill="#157196" layoutX="-34.0" layoutY="192.0" radius="66.0" stroke="#15719694" strokeType="INSIDE" />
+      <Circle fill="#d752e3d6" layoutX="236.0" layoutY="437.0" radius="53.0" stroke="#d752e394" strokeType="INSIDE" />
+      <Circle fill="#ebce75" layoutY="477.0" radius="27.0" stroke="#ebce7594" strokeType="INSIDE" />
+      <Circle fill="#9b8fb9" layoutX="387.0" layoutY="109.0" radius="66.0" stroke="#9b8fb994" strokeType="INSIDE" />
+      <Circle fill="#dae02fd9" layoutX="119.0" layoutY="-15.0" radius="66.0" stroke="#dae02f94" strokeType="INSIDE" />
+      <Circle fill="#8f1414b2" layoutX="614.0" layoutY="-15.0" radius="66.0" stroke="#8f1414b0" strokeType="INSIDE" />
+      <ImageView fitHeight="21.0" fitWidth="21.0" layoutX="656.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Task%201/exit.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="34.0" layoutY="143.0" prefHeight="304.0" prefWidth="643.0">
+         <children>
+            <Circle fill="#157196" layoutX="518.0" layoutY="70.0" radius="56.0" stroke="#15719694" strokeType="INSIDE" />
+            <Circle fill="#458046" layoutX="80.0" layoutY="52.0" radius="66.0" stroke="#45804694" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcff1fab" height="38.0" layoutX="271.0" layoutY="62.0" rotate="-48.4" stroke="#bcff1f" strokeType="INSIDE" width="41.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21f5ff7a" height="38.0" layoutX="406.0" layoutY="252.0" rotate="22.2" stroke="#21f8ff7a" strokeType="INSIDE" width="41.0" />
+            <Polygon fill="#ff1f1ff2" layoutX="14.0" layoutY="212.0" points="-35.041351318359375, 45.34265899658203, 8.768113136291504, 32.77796936035156, -11.52025318145752, -6.27975606918335" rotate="50.7" stroke="#ff2121e0" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff87" height="38.0" layoutX="585.0" layoutY="222.0" stroke="#1fff87" strokeType="INSIDE" width="41.0" />
+            <Polygon fill="#d01d1d" layoutX="214.0" layoutY="24.0" stroke="#d01d1d" strokeType="INSIDE">
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+              </points>
+            </Polygon>
+            <Pane fx:id="slidePane" layoutX="115.0" layoutY="109.0" prefHeight="106.0" prefWidth="358.0">
+               <children>
+                  <ImageView fx:id="faceLift" fitHeight="94.0" fitWidth="110.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@tooHighEmoji1.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="guessButton" layoutX="271.0" layoutY="34.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="83.0" styleClass="guessButton" stylesheets="@style.css" text="Guess">
+                     <font>
+                        <Font name="Bauhaus 93" size="18.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="numberLabel" layoutX="188.0" layoutY="34.0" prefHeight="38.0" prefWidth="83.0" styleClass="numberLabel" stylesheets="@style.css" />
+                  <Label fx:id="computerLabel" alignment="CENTER" layoutX="94.0" layoutY="34.0" prefHeight="38.0" prefWidth="94.0" styleClass="computerLabel" stylesheets="@style.css" text=" " />
+                  <Label fx:id="generalRemarksLabel" layoutX="116.0" layoutY="72.0" prefHeight="31.0" prefWidth="213.0" styleClass="generalRemarksLabel" stylesheets="@style.css">
+                     <font>
+                        <Font name="System Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <Polygon fill="#93b1dbb8" layoutX="564.0" layoutY="103.0" points="-23.0, 12.0, 29.0, 2.0, -7.0, -37.0" stroke="#93b1db" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

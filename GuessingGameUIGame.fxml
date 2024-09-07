@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:id="slidePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="105.0" prefWidth="357.0" styleClass="resultsPane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuessingGameUIGameController">
+   <children>
+      <Button fx:id="guessButton" layoutX="252.0" layoutY="34.0" mnemonicParsing="false" onAction="#guessAction" prefHeight="38.0" prefWidth="83.0" styleClass="guessButton" stylesheets="@style.css" text="Guess">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="computerLabel" alignment="CENTER" layoutX="94.0" layoutY="34.0" prefHeight="38.0" prefWidth="94.0" styleClass="computerLabel" stylesheets="@style.css" text=" " />
+      <ImageView fx:id="faceLift" fitHeight="94.0" fitWidth="110.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tooHighEmoji1.jpeg" />
+         </image>
+      </ImageView>
+      <Label fx:id="generalRemarkLabel" layoutX="116.0" layoutY="72.0" prefHeight="31.0" prefWidth="213.0" styleClass="generalRemarksLabel" stylesheets="@style.css" text="Enter a number.">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numberLabel" alignment="CENTER" layoutX="188.0" layoutY="34.0" prefHeight="38.0" prefWidth="64.0" promptText=" " styleClass="numberLabel" stylesheets="@style.css" />
+   </children>
+</Pane>

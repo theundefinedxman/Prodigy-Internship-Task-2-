@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="helpPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="117.0" prefWidth="351.0" styleClass="guessingGamePane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuessingGameUIController">
+   <children>
+      <Button fx:id="okButton" layoutX="314.0" layoutY="92.0" mnemonicParsing="false" onAction="#takeAction" styleClass="okButton" stylesheets="@style.css" text="OK">
+         <font>
+            <Font name="Bauhaus 93" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="label11" layoutX="16.0" layoutY="42.0" styleClass="allHelpLabel" stylesheets="@style.css" text="1.Enter a number in the green text field." />
+      <Label fx:id="label12" layoutX="18.0" layoutY="59.0" styleClass="allHelpLabel" stylesheets="@style.css" text="2.Click 'Guess' and repeat." />
+      <Label fx:id="label13" layoutX="18.0" layoutY="76.0" styleClass="allHelpLabel" stylesheets="@style.css" text="3.When done, choose 'New Game' or 'Exit' to finish." />
+      <Label fx:id="Label1" layoutX="7.0" prefHeight="17.0" prefWidth="514.0" styleClass="allHelpLabel" stylesheets="@style.css" text="Welcome to the Guessing Game! " />
+      <Label fx:id="label2" layoutX="7.0" layoutY="17.0" prefHeight="17.0" prefWidth="357.0" styleClass="allHelpLabel" stylesheets="@style.css" text="You'll guess a number between 1 and 10 (inclusive) for 3 rounds." />
+   </children>
+</AnchorPane>

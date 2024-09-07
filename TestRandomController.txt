@@ -1,0 +1,31 @@
+  RandomController rc = new RandomController();
+ rc.addUserNumber(9);
+ rc.addUserNumber(9);
+ rc.addUserNumber(9);
+ rc.addComputerNumber();
+ rc.addComputerNumber();
+ rc.addComputerNumber();
+ rc.getUserNumber();
+ rc.getComputerNumber();
+ rc.storePoints();
+ rc.getUserPoints();
+ rc.getComputerPoints();
+ System.out.println(rc.getWinner());
+ System.out.println(rc.getTotalPoints());
+ System.out.println(rc.getTotalPointsc());
+ 9
+ 9
+ 9
+ 1
+ 10
+ 7
+ 0
+ 0
+ 0
+ 1
+ 1
+ 1
+ Lose!!!
+ 0
+ 3
+ 
